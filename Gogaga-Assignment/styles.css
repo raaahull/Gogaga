@@ -1,0 +1,99 @@
+/* Hero Section */
+.hero-section {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/03/62/67/38/1000_F_362673857_z9RsmNdo9a6DtlnN6gj8mnGEKlmT82GG.jpg'); /* Desert mountains background */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    color: white;
+}
+
+.hero-section h1 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Search Form */
+.search-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.search-form .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-size: 16px;
+}
+
+.search-form .btn-primary i {
+    margin-right: 5px;
+}
+
+/* Star Rating */
+.star-rating {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px; /* Align star rating section with the form */
+}
+
+.star-rating label {
+    margin-right: 20px;
+    color: #000; /* Black color for label text */
+}
+
+.star-rating .btn-dark {
+    background-color: #000; /* Black background for buttons */
+    color: #fff; /* White text and star icon */
+    border: none;
+    margin-right: 5px;
+}
+
+.star-rating .btn-dark:hover {
+    background-color: #333; /* Darker shade on hover */
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar-brand span {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #51ba8c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 28px;
+    }
+    .hero-section p {
+        font-size: 16px;
+    }
+    .search-form {
+        width: 95%;
+    }
+}
